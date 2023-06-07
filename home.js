@@ -5,5 +5,6 @@ const SMALL_SLOW_MOTION = 50;
     const browser = await chromium.launch({headless: false, slowMo: SMALL_SLOW_MOTION})
     const page = await browser.newPage()
     await page.goto('https://vetlog.org/')
+    await expect(page).toHaveTitle("Vetlog")
     await browser.close()
 })()
