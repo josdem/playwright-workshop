@@ -1,6 +1,6 @@
-## Cypress Workshop
+## Playwright Workshop
 
-[![tested with Cypress.io](https://img.shields.io/badge/playwright-dashboard-brightgreen.svg)](https://playwright.dev/)
+[![tested with Playwright](https://img.shields.io/badge/playwright-dashboard-brightgreen.svg)](https://playwright.dev/)
 
 This is a getting started project with [Playwright](https://playwright.dev/)
 
