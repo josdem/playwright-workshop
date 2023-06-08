@@ -1,4 +1,4 @@
 module.exports = {
-    url: "https://vetlog.org/",
-    title: "Vetlog"
+  url: "https://vetlog.org/",
+  title: "Vetlog",
 }
