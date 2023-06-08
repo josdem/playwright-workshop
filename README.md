@@ -1,5 +1,6 @@
 ## Playwright Workshop
 
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 [![tested with Playwright](https://img.shields.io/badge/playwright-dashboard-brightgreen.svg)](https://playwright.dev/)
 
 This is a getting started project with [Playwright](https://playwright.dev/)
@@ -14,6 +15,12 @@ This is a getting started project with [Playwright](https://playwright.dev/)
 
 ```bash
 npm install
+```
+
+#### To format the project
+
+```bash
+npx prettier --write .
 ```
 
 #### To run the project
