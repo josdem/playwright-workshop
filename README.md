@@ -35,7 +35,7 @@ npx playwright test
 npx playwright show-report
 ```
 
-#### To [Allure](https://github.com/allure-framework/allure2) reports
+#### To see [Allure](https://github.com/allure-framework/allure2) reports
 
 ```bash
 npx playwright test --reporter=line,allure-playwright
