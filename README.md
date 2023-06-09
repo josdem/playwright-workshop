@@ -29,8 +29,16 @@ npx prettier --write .
 npx playwright test
 ```
 
-#### To see reports
+#### To see integrated reports
 
 ```bash
 npx playwright show-report
+```
+
+#### To [Allure](https://github.com/allure-framework/allure2) reports
+
+```bash
+npx playwright test --reporter=line,allure-playwright
+allure generate ./allure-results --clean
+allure open ./allure-report
 ```
