@@ -34,11 +34,3 @@ npx playwright test
 ```bash
 npx playwright show-report
 ```
-
-#### To see [Allure](https://github.com/allure-framework/allure2) reports
-
-```bash
-npx playwright test --reporter=line,allure-playwright
-allure generate ./allure-results --clean
-allure open ./allure-report
-```
