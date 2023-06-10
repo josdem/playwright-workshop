@@ -1,7 +1,7 @@
 ## Playwright Workshop
 
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
-[![tested with Playwright](https://img.shields.io/badge/playwright-dashboard-brightgreen.svg)](https://playwright.dev/)
+[![Playwright](https://img.shields.io/badge/playwright-reports-brightgreen.svg)](https://josdem.github.io/playwright-workshop/)
 
 This is a getting started project with [Playwright](https://playwright.dev/)
 
