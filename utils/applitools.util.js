@@ -22,3 +22,23 @@ const setUpConfiguration = async (batchName) => {
     configuration.addDeviceEmulation(DeviceName.Pixel_5, ScreenOrientation.PORTRAIT)
 }
 
+const setUpTest = async (page, appName, testName) => {
+    let eyes = new Eyes(runner, configuration)
+    await eyes.open(page, appName, testName)
+}
+
+const closeEyes = async () => {
+    await eyes.close()
+}
+
+const cleaning = async () => {
+  const results = await runner.getAllTestResults()
+  console.log('Visual test results', results)
+}
+
+module.exports = {
+    setUpTest,
+    closeEyes,
+    cleaning,
+    setUpConfiguration
+}
