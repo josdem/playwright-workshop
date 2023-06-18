@@ -34,3 +34,8 @@ npx playwright test
 ```bash
 npx playwright show-report
 ```
+
+#### To see deployed reports
+
+- You can deploy generated reports using a SSK key: [playwright-report](https://josdem.io/playwright-report/)
+- For more information go [here](https://github.com/appleboy/scp-action)
