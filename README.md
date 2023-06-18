@@ -38,4 +38,4 @@ npx playwright show-report
 #### To see deployed reports
 
 - You can deploy generated reports using a SSK key: [playwright-report](https://josdem.io/playwright-report/)
-- For more information go [here](https://github.com/appleboy/scp-action)
+- For more information go [here](https://josdem.io/techtalk/ux/playwright_reports_deployment/)
