@@ -27,6 +27,6 @@ jobs:
         host: ${{ secrets.HOST }}
         username: ${{ secrets.USERNAME }}
         port: 22
-        key: ${{ secrets.SSK_KEY }}
+        key: ${{ secrets.SSH_KEY }}
         source: "playwright-report/index.html"
         target: "/home/josdem/deploys"
