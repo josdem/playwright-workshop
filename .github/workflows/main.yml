@@ -21,3 +21,12 @@ jobs:
         name: playwright-report
         path: playwright-report/
         retention-days: 30
+    - name: Deploy using SSH key
+      uses: appleboy/scp-action@v0.1.4
+      with:
+        host: ${{ secrets.HOST }}
+        username: ${{ secrets.USERNAME }}
+        port: 22
+        key: ${{ secrets.SSK_KEY }}
+        source: "playwright-report/index.html"
+        target: "/home/josdem/deploys"
