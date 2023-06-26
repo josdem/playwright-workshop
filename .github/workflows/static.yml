@@ -1,4 +1,4 @@
-name: Deploy static content to Pages
+name: Deploy Playwwight to GitHub pages
 on:
   push:
     branches: ["main"]
