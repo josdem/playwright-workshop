@@ -21,6 +21,8 @@ jobs:
           name: playwright-report
           path: playwright-report/
           retention-days: 30
+      - name: REST API with curl
+        run: curl -X GET "https://webflux.josdem.io/categories/en/"
       - name: Deploy using SSH key
         uses: appleboy/scp-action@v0.1.4
         with:
