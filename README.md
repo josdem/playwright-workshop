@@ -39,3 +39,8 @@ npx playwright show-report
 
 - You can deploy generated reports using a SSK key: [playwright-report](https://josdem.io/playwright-report/)
 - For more information go [here](https://josdem.io/techtalk/ux/playwright_reports_deployment/)
+
+If you want to generate [Allure Reports](https://webdriver.io/docs/allure-reporter/)
+
+- Install allure command line: `npm install -g allure-commandline --save-dev`
+- Execute this command: `allure generate && allure serve -h localhost`
