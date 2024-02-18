@@ -1,4 +1,5 @@
 const { test, expect } = require("@playwright/test")
+import { allure } from "allure-playwright"
 const properties = require("../properties/test.properties")
 
 test.beforeAll(async () => {
@@ -13,6 +14,8 @@ test.beforeAll(async () => {
 })
 
 test("should validate page title", async ({ page }) => {
+  await allure.tags("home", "guest", "title")
+  await allure.issue("tags", "https://github.com/josdem/playwright-workshop/issues/12")
   await page.goto(properties.url)
   await expect(page).toHaveTitle(properties.title)
 })
