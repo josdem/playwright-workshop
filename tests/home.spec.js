@@ -15,6 +15,8 @@ test.beforeAll(async () => {
 
 test("should validate page title", async ({ page }) => {
   await allure.tags("home", "guest", "title")
+  await allure.epic("OR-2716");
+  await allure.story("OR-4197");
   await allure.issue("tags", "https://github.com/josdem/playwright-workshop/issues/12")
   await page.goto(properties.url)
   await expect(page).toHaveTitle(properties.title)
